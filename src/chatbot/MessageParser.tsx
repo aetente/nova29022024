@@ -1,8 +1,8 @@
 // in MessageParser.js
 import React from 'react';
 
-const MessageParser = ({ children, actions }) => {
-  const parse = (message) => {
+const MessageParser = ({ children, actions }: any) => {
+  const parse = (message: any) => {
     if (message.includes('hello')) {
       actions.handleHello();
     }

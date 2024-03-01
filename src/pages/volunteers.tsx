@@ -25,7 +25,7 @@ const Volunteers = () => {
 
   return (
     <div
-      className="bg-white flex flex-col items-center">
+      className="bg-white flex flex-col items-center p-4">
       <div className="w-full max-w-[356px] py-8">
 
         <div className="flex items-center gap-4 mb-11">

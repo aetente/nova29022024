@@ -1,7 +1,9 @@
 import "@/app/globals.css";
 import DeepBreath from "@/components/DeepBreath";
 import { useRouter } from "next/router";
+// @ts-ignore
 import ChatBot from 'react-simple-chatbot';
+// const ChatBot = require('react-simple-chatbot')
 
 const steps = [
   {

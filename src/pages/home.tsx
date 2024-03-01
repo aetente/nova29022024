@@ -24,7 +24,7 @@ const HomeComponent = () => {
 
   return (
     <div
-      className="bg-white flex flex-col items-center">
+      className="bg-white flex flex-col items-center p-8">
       <div className="w-full max-w-[356px] py-8">
 
         <div className="flex items-center gap-4 mb-11">
@@ -64,8 +64,8 @@ const HomeComponent = () => {
 
         <div className="relative h-[170px] rounded-lg bg-cover bg-center bg-local bg-no-repeat bg-amber-200 mb-9">
           <div className="px-4 pt-4 pb-1 absolute w-full bottom-0 h-[70px] bg-gray-300 rounded-lg">
-            <h1 className="text-gray-800 font-semibold text-lg leading-snug">Delicious Persian Shabbat Dinner</h1>
-            <h2 className="text-gray-800 leading-snug">You are not alone, join an event nearby</h2>
+            <h1 className="text-gray-800 font-semibold text-base leading-snug">Delicious Persian Shabbat Dinner</h1>
+            <h2 className="text-gray-800 text-sm leading-snug">You are not alone, join an event nearby</h2>
           </div>
         </div>
 

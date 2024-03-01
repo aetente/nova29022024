@@ -1,4 +1,4 @@
-import config from '../chatbot/config.ts';
+// import config from '../chatbot/config.ts';
 import MessageParser from '../chatbot/MessageParser';
 import ActionProvider from '../chatbot/ActionProvider';
 import Chatbot, { createChatBotMessage } from 'react-chatbot-kit';
@@ -8,11 +8,11 @@ const ChatbotComponent = () => {
 
   return (
     <div>
-      <Chatbot
+      {/* <Chatbot
         config={config}
         messageParser={MessageParser}
         actionProvider={ActionProvider}
-      />
+      /> */}
     </div>
   );
 };
